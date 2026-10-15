@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "raised_bed_wood_120x240",
+      "category": "garden_bed",
+      "type": "raised_bed",
+      "geometry": "rect",
+      "name": {
+        "en": "Raised bed 120×240",
+        "pl": "Grządka podwyższona 120×240"
+      },
+      "description": {
+        "en": "Wooden raised bed, 40 cm walls",
+        "pl": "Drewniana grządka podwyższona, ścianki 40 cm"
+      },
+      "widthM": 1.2,
+      "lengthM": 2.4,
+      "icon": "library/icons/garden_bed/raised_bed_wood_120x240.png",
+      "preview": "library/previews/raised_bed_wood_120x240.png",
+      "model": "library/models/raised_bed_wood_120x240.glb",
+      "attributes": {
+        "material": "wood",
+        "heightCm": "40"
+      }
+    },
+    {
+      "id": "round_bed_150",
+      "category": "garden_bed",
+      "type": "round_bed",
+      "geometry": "rect",
+      "name": {
+        "en": "Round bed Ø 150",
+        "pl": "Okrągła grządka Ø 150"
+      },
+      "description": {
+        "en": "Circular bed, 1.5 m diameter",
+        "pl": "Okrągła grządka, średnica 1,5 m"
+      },
+      "widthM": 1.5,
+      "lengthM": 1.5,
+      "icon": "library/icons/garden_bed/round_bed_150.png",
+      "attributes": {
+        "shape": "circle"
+      }
+    },
+    {
+      "id": "keyhole_bed_200",
+      "category": "garden_bed",
+      "type": "keyhole_bed",
+      "geometry": "rect",
+      "name": {
+        "en": "Keyhole bed Ø 200",
+        "pl": "Grządka keyhole Ø 200"
+      },
+      "description": {
+        "en": "Keyhole composting bed, 2 m diameter",
+        "pl": "Grządka kompostowa keyhole, średnica 2 m"
+      },
+      "widthM": 2.0,
+      "lengthM": 2.0,
+      "icon": "library/icons/garden_bed/keyhole_bed_200.png",
+      "attributes": {
+        "shape": "keyhole"
+      },
+      "care": {
+        "soil": "rich_compost",
+        "watering": "moderate"
+      }
+    }
+  ]
+}
